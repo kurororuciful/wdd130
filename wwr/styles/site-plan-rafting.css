@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Notable&family=Poetsen+One&display=swap');
+
+
+body {
+    font-family: "Caveat", sans-serif;
+    max-width: 960px;
+    padding: 20px;
+
+    font-family: var(--paragraph-font); 
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #FCEAE8;
+    --secondary-color: #EC7E59;
+    --accent1-color: #7494E1;
+    --accent2-color: #F5CD87;
+
+    --heading-font: 'Notable', serif;
+    --paragraph-font: 'Caveat', sans-serif;
+
+    --nav-background-color: #F5CD87;
+    --nav-link-color: #7494E1;
+    --nav-hover-link-color: #EC7E59;
+    --nav-hover-background-color: #FCEAE8;
+}
+
+h4 {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+h3 {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 500;
+    font-style: normal;  
+}
+
+h1 {
+    font-family: "Notable", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
