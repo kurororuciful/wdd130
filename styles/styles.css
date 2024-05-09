@@ -29,7 +29,7 @@ aside {
 }
 
 aside h2 {
-    position:absolute;
+    position: relative;
     top: 777px;
     left: 120px;
 }
