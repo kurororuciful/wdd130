@@ -6,10 +6,6 @@ body {
     font-family: "Caveat", sans-serif;
     max-width: 960px;
     padding: 20px;
-
-    font-family: var(--paragraph-font); 
-    max-width: 960px;
-    padding: 20px;
 }
 
 :root {
