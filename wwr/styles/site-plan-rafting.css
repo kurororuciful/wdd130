@@ -27,9 +27,9 @@ body {
     --nav-hover-background-color: #FCEAE8;
 }
 
-h4 {
-    font-family: "Caveat", sans-serif;
-    font-weight: 300;
+h1 {
+    font-family: "Notable", sans-serif;
+    font-weight: 600;
     font-style: normal;
 }
 
@@ -45,9 +45,9 @@ h3 {
     font-style: normal;  
 }
 
-h1 {
-    font-family: "Notable", sans-serif;
-    font-weight: 600;
+h4 {
+    font-family: "Caveat", sans-serif;
+    font-weight: 300;
     font-style: normal;
 }
 
