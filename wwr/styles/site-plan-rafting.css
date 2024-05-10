@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Notable&family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Notable&family=Poetsen+One&display=swap');
 
 
 body {
@@ -28,19 +28,19 @@ body {
 }
 
 h4 {
-    font-family: "Caveat", cursive;
+    font-family: "Poetsen One", sans-serif;
     font-weight: 300;
     font-style: normal;
 }
 
-h3 {
-    font-family: "Caveat", cursive;
+h2 {
+    font-family: "Notable", monospace;
     font-weight: 400;
     font-style: normal;
 }
 
-h2 {
-    font-family: "Poetsen One", sans-serif;
+h3 {
+    font-family: "Poetsen One", serif;
     font-weight: 500;
     font-style: normal;  
 }
