@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+:root {
+    --primary-color: #FCEAE8;
+    --secondary-color: #EC7E59;
+    --accent1-color: #7494E1;
+    --accent2-color: #F5CD87;
+
+    --heading-font: 'Notable', serif;
+    --paragraph-font: 'Caveat', sans-serif;
+
+    --nav-background-color: #F5CD87;
+    --nav-link-color: #7494E1;
+    --nav-hover-link-color: #EC7E59;
+    --nav-hover-background-color: #FCEAE8;
+}
+
+h1 {
+    font-family: "Notable", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #0f7eaa;
+}
+
+h2 {
+    font-family: "Notable", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: #27395f;
+
+}
+
+h3 {
+    font-family: "Poetsen One", serif;
+    font-weight: 500;
+    font-style: normal;  
+    color: #223bac;
+
+}
+
+h4 {
+    font-family: "Caveat", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #ccd8f1;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
