@@ -12,11 +12,6 @@ nav {
     align-items: center;
 }
 
-.grid {
-    display: grid;
-    align-items: center;
-}
-
 main {
     grid-column: 2/3;
     margin: 1rem;
