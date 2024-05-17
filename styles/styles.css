@@ -6,7 +6,7 @@
 
 nav {
     background-color: steelblue;
-    padding: 10px;
+    padding: 1rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -14,36 +14,41 @@ nav {
 
 .grid {
     display: grid;
-    align-items: center;
-    grid-template-columns: 1.5fr 1fr;
+    align-items: flex-start;
+    grid-template-columns: 100% 1fr;
 }
 
 main {
     grid-column: 2/3;
-    margin: 4rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    max-width: 840px;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
 }
 
 nav a {
     color: white;
     display: block;
-    padding: 15px;
-    text-decoration: double;
-    font-size: 1rem;
-    font-weight: 600;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 h1 {
     color: steelblue;
     border-bottom-width: 1px;
-    max-width: 100%;
     border-bottom-style: dotted;
     border-bottom-color: rgb(0, 25, 250);
 }
 
 aside {
-    width: 20em;
+    width: 20rem;
     text-align: center;
-    color: rgb(30, 8, 31);
+    grid-column: 1/2;
+    grid-row: 1/2;
     position: relative;
 }
 
@@ -51,19 +56,24 @@ aside h2 {
     position: absolute;
     top: 23px;
     left: 20%;
-    text-justify: distribute-all-lines;
+    text-justify: auto;
     color: whitesmoke;
 }
 
 aside img {
     width: 250px;
-    height: 500px;
+    height: 400px;
+    padding: .5rem;
+    margin-top: 0%;
 }
 
 main img {
-    width: 150px;
-    height: auto;
     float: right;
+    width: 350px;
+    height: auto;
+    padding: .5rem;
+    display: flex;
+    position: inherit;
 }
 
 img {
@@ -71,16 +81,12 @@ img {
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
-}
-
-p {
-    padding: 0;
+    box-shadow: 0 0 60px rgb(121, 120, 177);
 }
 
 footer {
     margin-top: 15px;
-    border-top: 1px solid #cc1111;
+    border-top: 1px solid #3324b8;
     text-align: center;
 
 }
@@ -88,14 +94,14 @@ footer {
 /* Class Selectors */
 
 .box {
-    margin: 1rem;
-    border: 1px solid rgba(69, 55, 129, 0.5);
+    margin: 2rem;
+    border: 2px solid rgba(26, 23, 177, 0.5);
     padding: 1rem;
-    background-color: rgb(77, 144, 231);
+    background-color: rgb(167, 176, 189);
     color: rgb(247, 241, 246);
 }
 
-header, footer, .grid {
+header, .grid, footer {
     margin: 0 auto;
     max-width: 840px;
 }
