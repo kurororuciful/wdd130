@@ -1,21 +1,17 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    padding: 2;
+    color: lightslategray;
     box-sizing: border-box;
 }
 
 nav {
     background-color: steelblue;
     padding: 1rem;
+    box-shadow: 2px 2px 3px lightskyblue;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-}
-
-.grid {
-    display: grid;
-    align-items: flex-start;
-    grid-template-columns: 100% 1fr;
 }
 
 main {
@@ -25,23 +21,25 @@ main {
     margin-top: 20px;
     max-width: 840px;
     padding: 10px;
-    box-shadow: 5px 10px #888888;
+    box-shadow: 2px 2px 4px lightskyblue;
 }
 
 nav a {
     color: white;
     display: block;
     padding: 0.5rem;
-    text-decoration: none;
+    text-decoration-color: lightskyblue;
     font-size: 1.2rem;
     font-weight: 700;
+    box-shadow: 2px 2px 3px lightskyblue;
 }
 
 h1 {
     color: steelblue;
+    text-shadow: 2px 0 4px lightskyblue;
     border-bottom-width: 1px;
     border-bottom-style: dotted;
-    border-bottom-color: rgb(0, 25, 250);
+    border-bottom-color: lightskyblue;
 }
 
 aside {
@@ -57,7 +55,7 @@ aside h2 {
     top: 23px;
     left: 20%;
     text-justify: auto;
-    color: whitesmoke;
+    color: rgb(235, 180, 235);
 }
 
 aside img {
@@ -79,14 +77,14 @@ main img {
 img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
-    padding: 2px;
-    box-shadow: 0 0 60px rgb(121, 120, 177);
+    border: 1px solid black;
+    padding: 1px steelblue;
+    box-shadow: 0 3px 60px steelblue;
 }
 
 footer {
     margin-top: 15px;
-    border-top: 1px solid #3324b8;
+    border-top: 1px solid lightslategray;
     text-align: center;
 
 }
@@ -94,14 +92,24 @@ footer {
 /* Class Selectors */
 
 .box {
-    margin: 2rem;
-    border: 2px solid rgba(26, 23, 177, 0.5);
-    padding: 1rem;
-    background-color: rgb(167, 176, 189);
-    color: rgb(247, 241, 246);
+    margin: .5rem;
+    border: 2px solid steelblue;
+    box-shadow: 2px 2px 2px lightskyblue;
+    padding: 1.5rem;
+    background-color: lightskyblue;
 }
 
 header, .grid, footer {
     margin: 0 auto;
     max-width: 840px;
+    grid-template-columns: 100% 1fr;
+    
 }
+
+
+/*
+.grid {
+    display: grid;
+    align-items: flex-start;
+}
+*/
