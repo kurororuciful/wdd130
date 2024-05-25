@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Notable&family=Poetsen+One&display=swap');
 
 :root {
     --primary-color: #FCEAE8;
@@ -15,11 +15,66 @@
     --nav-hover-background-color: #FCEAE8;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+}
+
+header {
+    display: flex;
+    justify-content: center; 
+    padding: 15px 
+}
+
+.logo img {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 40px;
+    margin-right: 60px;
+}
+
+.panel a {
+    text-decoration: solid;
+    color: rgba(165, 42, 42, 0.438);
+    font-family: var(--heading-font);
+    font-weight: bolder;
+    display: block;
+    padding: 2em 4em;
+    background-color: var(--nav-hover-background-color);
+    box-shadow: 5px 5px 2px var(--nav-link-color);
+    border-radius: 200px;
+}
+
 h1 {
     font-family: "Notable", sans-serif;
     font-weight: 600;
     font-style: normal;
-    color: #0f7eaa;
+    position: absolute;
+    text-align: left;
+    background: none;
+    letter-spacing: 5px;
+    top: 50%; /*to be adjusted starting from here */
+    width: 100%;
+    left: 20%;
+}
+
+p {
+    position: flex;
+    text-align: left;
+    padding: 2%;
+    font-style: var(--paragraph-font);
+    font-size: large;
+    color: rgba(165, 42, 42, 0.212);
+    text-shadow: 1px 1px 1px var(--accent1-color);
+    letter-spacing: 2px;
+    text-align: justify;
+    flex: 1 1 100px;
 }
 
 h2 {
@@ -27,7 +82,6 @@ h2 {
     font-weight: 400;
     font-style: normal;
     color: #27395f;
-
 }
 
 h3 {
@@ -46,11 +100,62 @@ h4 {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: rgba(165, 42, 42, 0.507);
+    letter-spacing: 5px;
 }
 
 .hero img {
     display: block;
     width: 100%;
     height: auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-end;
+    align-items: stretch;
+    align-content: end;
+    width: 300px;
+    height: auto;
+
+    /*standard image design*/
+    border: 4px dashed var(--accent1-color); 
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.sociallinks a {
+    text-decoration: none !important;
+    float: right;
+    border: 4px dashed var(--accent1-color); 
+    border-radius: 20px;
+    padding: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+
+.csat img {
+    max-width: 250px;
+    align-items: center;
+    margin-left: 17px;
+    border: 4px dashed var(--accent1-color); 
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.csat {
+    text-align: left;
+    padding: 2%;
+}
+
+.adventure img {
+    border: 4px dashed var(--accent1-color); 
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    max-width: 280px;
+    max-height: 180px;
 }
