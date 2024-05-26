@@ -25,7 +25,7 @@
 header {
     display: flex;
     justify-content: center; 
-    padding: 15px 
+    border-bottom: 4px solid rgba(165, 42, 42, 0.438);    
 }
 
 .logo img {
@@ -35,33 +35,28 @@ header {
 nav ul {
     list-style: none;
     display: flex;
-    padding: 40px;
-    margin-right: 60px;
+    padding: 80px 3px 0 3px;
 }
 
 .panel a {
-    text-decoration: solid;
+    text-decoration: bold;
     color: rgba(165, 42, 42, 0.438);
     font-family: var(--heading-font);
-    font-weight: bolder;
-    display: block;
+    font-weight: bold;
+    display: flex;
     padding: 2em 4em;
-    background-color: var(--nav-hover-background-color);
+    background-color: var(--accent2-color);
     box-shadow: 5px 5px 2px var(--nav-link-color);
     border-radius: 200px;
 }
 
+.panel :hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background);
+}
+
 h1 {
-    font-family: "Notable", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    position: absolute;
     text-align: left;
-    background: none;
-    letter-spacing: 5px;
-    top: 50%; /*to be adjusted starting from here */
-    width: 100%;
-    left: 20%;
 }
 
 p {
@@ -69,7 +64,6 @@ p {
     text-align: left;
     padding: 2%;
     font-style: var(--paragraph-font);
-    font-size: large;
     color: rgba(165, 42, 42, 0.212);
     text-shadow: 1px 1px 1px var(--accent1-color);
     letter-spacing: 2px;
@@ -78,56 +72,86 @@ p {
 }
 
 h2 {
-    font-family: "Notable", monospace;
-    font-weight: 400;
-    font-style: normal;
-    color: #27395f;
+    text-align: center;
 }
 
 h3 {
-    font-family: "Poetsen One", serif;
+    font-family: "Caveat", serif;
+    letter-spacing: 2px;
     font-weight: 500;
-    font-style: normal;  
-    color: #223bac;
+    color: rgba(165, 42, 42, 0.212);
+    text-shadow: 1px 1px 1px var(--accent1-color);
+    letter-spacing: 2px;
 }
 
 h4 {
-    font-family: "Caveat", sans-serif;
+    font-family: "Poetsen One", serif;
     font-weight: 300;
     font-style: normal;
     color: #ccd8f1;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
     font-family: var(--heading-font);
-    color: rgba(165, 42, 42, 0.507);
+    color: rgba(87, 22, 22, 0.459);
     letter-spacing: 5px;
+    text-shadow: 2px 2px 3px whitesmoke;
+    background-color: rgba(0, 0, 0, 0.897);
+}
+
+.hero{
+    display: flex;
+    padding: 20px;
 }
 
 .hero img {
-    display: block;
-    width: 100%;
-    height: auto;
     flex-wrap: wrap;
     display: flex;
-    justify-content: flex-end;
-    align-items: stretch;
-    align-content: end;
+    align-items: normal;
+    align-content: space-around;
     width: 300px;
     height: auto;
 
     /*standard image design*/
-    border: 4px dashed var(--accent1-color); 
+    border: 4px dashed var(--accent2-color); 
     border-radius: 20px;
     padding: 5px;
 }
 
-.sociallinks a {
-    text-decoration: none !important;
-    float: right;
-    border: 4px dashed var(--accent1-color); 
+.history img {
+    width: 400px;
+    height: auto;
+    align-items: center;
+    margin: 17px;
+    border: 4px dashed var(--accent2-color); 
     border-radius: 20px;
     padding: 5px;
+}
+
+.history article {
+    text-align: left;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+}
+
+.adventure {
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid rgba(165, 42, 42, 0.438);    
+}
+
+figure img {
+    border: 4px dashed var(--accent2-color); 
+    border-radius: 20px;
+    padding: 5px;
+}
+
+figcaption{
+    text-align: center;
+    padding: 10px 30px;
+
 }
 
 footer {
@@ -137,25 +161,16 @@ footer {
     padding: 8px;
 }
 
-.csat img {
-    max-width: 250px;
-    align-items: center;
-    margin-left: 17px;
-    border: 4px dashed var(--accent1-color); 
-    border-radius: 20px;
-    padding: 5px;
+footer p {
+    text-align-last: center;
+    font-family: "Poetsen One", serif;
+    float: center;
 }
 
-.csat {
-    text-align: left;
-    padding: 2%;
-}
-
-.adventure img {
-    border: 4px dashed var(--accent1-color); 
+.sociallinks a {
+    text-decoration: none !important;
+    float: right;
+    border: 4px dashed var(--accent2-color); 
     border-radius: 20px;
     padding: 5px;
-    display: flex;
-    max-width: 280px;
-    max-height: 180px;
 }
