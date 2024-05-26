@@ -40,7 +40,7 @@ nav ul {
 
 .panel a {
     color: rgba(165, 42, 42, 0.438);
-    font-family: var(--heading-font);
+    font-family: "Poetsen One", serif;
     font-weight: bold;
     display: flex;
     padding: 2em 4em;
