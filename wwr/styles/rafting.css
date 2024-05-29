@@ -139,7 +139,8 @@ h1, h2 {
 }
 
 .adventure {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     padding: 20px;
     text-align: center;
     border-bottom: 4px solid rgba(165, 42, 42, 0.438);    
