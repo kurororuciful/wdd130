@@ -2,17 +2,17 @@
 
 :root {
     --primary-color: #FCEAE8;
-    --secondary-color: #EC7E59;
-    --accent1-color: #7494E1;
-    --accent2-color: #F5CD87;
+    --secondary-color: #be4218;
+    --accent1-color: #2c57bd;
+    --accent2-color: #dd9c2c;
 
     --heading-font: 'Notable', serif;
     --paragraph-font: 'Caveat', sans-serif;
 
     --nav-background-color: #F5CD87;
-    --nav-link-color: #7494E1;
+    --nav-link-color: #2b5ac9;
     --nav-hover-link-color: #EC7E59;
-    --nav-hover-background-color: #FCEAE8;
+    --nav-hover-background-color: #ffffff;
 }
 
 * {
@@ -23,13 +23,18 @@
 }
 
 header {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
     justify-content: center; 
-    border-bottom: 4px solid rgba(165, 42, 42, 0.438);    
+    border-bottom: 4px solid rgb(255, 255, 255);    
 }
 
 .logo img {
     display: block;
+}
+
+nav{
+    display: flex;
 }
 
 nav ul {
@@ -39,13 +44,13 @@ nav ul {
 }
 
 .panel a {
-    color: rgba(165, 42, 42, 0.438);
+    color: rgb(255, 255, 255);
     font-family: "Poetsen One", serif;
     font-weight: bold;
     display: flex;
     padding: 2em 4em;
-    background-color: var(--accent2-color);
-    box-shadow: 5px 5px 2px var(--nav-link-color);
+    background-color: gray;
+    box-shadow: 0px 5px 2px var(--nav-link-color);
     border-radius: 200px;
 }
 
@@ -91,9 +96,9 @@ h4 {
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: rgba(87, 22, 22, 0.459);
+    color: rgba(247, 237, 237, 0.459);
     letter-spacing: 5px;
-    text-shadow: 2px 2px 3px whitesmoke;
+    text-shadow: 0px 2px 3px whitesmoke;
     background-color: rgba(0, 0, 0, 0.897);
 }
 
