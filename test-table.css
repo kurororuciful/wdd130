@@ -1,0 +1,117 @@
+table {
+    overflow: auto;
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+    height: 240px;
+    border: 2px solid rgb(140 140 140);
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: 
+        14px "Open Sans",
+        Helvetica,
+        Arial,
+        sans-serif;
+}
+
+th,
+td {
+border: 1px solid rgb(160 160 160);
+padding: 5px 10px;
+text-align: center;
+color: white;
+}
+
+td{
+color: rgba(22, 17, 17, 0.76);
+text-shadow: 0px 1px 0px lightblue;
+}
+
+thead > tr {
+background-color: rgb(228 240 245);
+}
+
+thead > tr:nth-of-type(2) {
+border-bottom: 2px solid rgb(140 140 140);
+}
+
+thead > tr:last-of-type > th:nth-of-type(1) {
+background-color: rgb(214, 245, 214);
+}
+
+thead > tr:last-of-type > th:nth-of-type(2) {
+background-color: rgb(255, 203, 203);
+}
+
+tbody > tr > th:first-of-type {
+text-align: left;
+background-color: rgb(225 229 244);
+}
+
+tbody > tr:nth-of-type(even) {
+background-color: rgb(237 238 242);
+}
+
+tbody > tr > td:last-of-type {
+text-align: right;
+}
+
+tfoot > tr {
+border-top: 2px dashed rgb(140 140 140);
+background-color: rgb(228 240 245);
+}
+
+th{
+color: gray;
+text-shadow: 0px 1px 1px white;
+vertical-align: bottom;
+}
+
+tfoot > tr > th{
+text-align: end;
+}
+
+caption{
+    caption-side: bottom;
+    padding: 8px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 1px 0px 1px red;
+    font-style: italic;
+}
+
+/* TEXT ELEMENTS
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+}
+
+BOX SIZING ELEMENTS
+input,
+textarea,
+select,
+button {
+  width: 150px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+LEGEND PLACEMENT
+fieldset {
+  position: relative;
+}
+
+legend {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+
+*/
+

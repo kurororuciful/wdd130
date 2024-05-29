@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="I am Omar. This page is made as a curriculum project in our BYU Web Development class."> <!--edit this-->
+        <title>O Manantan | WDD 130</title>    
+        <link rel ="stylesheet" href="styles/poll-form.css"/>
+        <title>
+            WDD 130 | HTML Form - User Poll
+        </title>
+    </head>
+
+    <body>
+        <header>
+            <h1>
+                WDD 130 | O Manantan | HTML Form - User Poll
+            </h1>
+        </header>
+
+        <main>
+           <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <div class="form-item column2">
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname"><br>
+                    </div>
+                    <div class="form-item column2">
+                        <label for="useremail">Email:</label>
+                        <input type="email" id="useremail" name="useremail">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Questions</legend>
+                    <div class="form-item column1">
+                        <label for="strawhats">Who is your favorite Strawhat crew?</label>
+                        <select name="strawhats" id="strawhats">
+                        <option aria-placeholder="placeholder">Please select one</option>
+                        <option value="luffy">Monkey D. Luffy</option>
+                        <option value="zoro">Roronoa Zoro</option>
+                        <option value="nami">Nami</option>
+                        <option value="usopp">Usopp</option>
+                        <option value="sanji">Vinsmoke Sanji</option>
+                        <option value="chopper">Tony Tony Chopper</option>
+                        <option value="robin">Nico Robin</option>
+                        <option value="franky">Frankie</option>
+                        <option value="brook">Brook</option>
+                        <option value="jinbe">Jinbei</option>
+                        <option value="vivi">Nefertari Vivi</option>
+                        <option value="yamato">Yamato</option>
+                        </select>
+                    </div>
+                    <label for="nakama">Would you like to be a part of the Strawhats?</label>
+                        YES<input type="checkbox" id="nakama" name="nakama">
+                        NOT YET<input type="checkbox" id="enemy" name="enemy">
+                    <div class="form-item column1">
+                        <label for="feedback">List the countries or territories you wish to dwell: </label>
+                        <textarea name="country" id="country" rows="3" placeholder="Arabasta, Dressrosa, Zou, Ryugu, Wano"></textarea>
+                    </div>
+                </fieldset>
+                <button type="submit">Submit Poll</button>
+           </form>
+        </main>
+        
+        <footer>
+            <p>
+                ©2024 | HTML Form - User Poll Activity | O Manantan
+            </p>
+        </footer>
+    </body>
+
+    </html>
