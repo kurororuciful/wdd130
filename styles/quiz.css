@@ -1,4 +1,4 @@
-@import url('https://fonts.google.com/css?family=Caveat&family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Notable&family=Poetsen+One&display=swap');
 
 :root{
 --heading-font: caveat, serif;
@@ -106,5 +106,4 @@ footer{
     border-top: 1px solid white;
     margin: 28px;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
