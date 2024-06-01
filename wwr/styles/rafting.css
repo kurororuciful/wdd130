@@ -141,7 +141,7 @@ h1, h2 {
 }
 
 .history p{
-    left: 0px;
+    left: 50px;
     bottom: 0px;
     width: 300px;
 }
@@ -149,7 +149,6 @@ h1, h2 {
 .adventure {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    font-optical-sizing: auto;
     padding: 20px;
     text-align: center;
 }
@@ -187,7 +186,7 @@ footer p {
     letter-spacing: 2px;
     text-align: justify;
     flex: 1 1 100px;
-}*/
+}
 
 .sociallinks a {
     text-decoration: none !important;
@@ -195,6 +194,11 @@ footer p {
     border: 4px dashed var(--accent2-color); 
     border-radius: 20px;
     padding: 5px;
+}
+
+main{
+    border-bottom: 5px solid black;
+    padding-bottom: 20px;
 }
 
 
@@ -258,7 +262,6 @@ footer p {
 .team {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    font-optical-sizing: auto;
     margin-top: 20px;
     padding: 5px;
     text-align: center;
@@ -333,7 +336,6 @@ label{
 input[type="checkbox"]{
     width: 18px;
     height: 18px;
-    display: flexbox;
     vertical-align: text-bottom;
 }
 
@@ -343,7 +345,7 @@ input[type="radio"]{
 }
 
 button{
-    margin: 10px 28px;
+    margin: 20px 38px;
     padding: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow: 1px 1px 2px whitesmoke;
