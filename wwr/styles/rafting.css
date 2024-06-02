@@ -19,14 +19,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: var(--primary-color);
 }
 
 header {
     display: grid;
     grid-template-columns: 1fr 3fr;
     justify-content: center; 
-    border-bottom: 5px solid rgb(0, 0, 0);    
+    border-bottom: 5px solid rgb(0, 0, 0);   
+    background-color: var(--primary-color); 
 }
 
 .logo img {
@@ -35,6 +35,7 @@ header {
 
 nav{
     display: flex;
+    justify-content: right;
 }
 
 nav ul {
@@ -169,6 +170,7 @@ footer {
     justify-content: right;
     align-items: center;
     padding: 8px;
+    background-color: var(--primary-color);
 }
 
 footer p {
@@ -219,7 +221,7 @@ main{
     text-align: justify;
 }
 
-.info h3, p {
+.info h3, .info p {
     align-content: center;
     float: right;
     display: flex;
@@ -251,12 +253,12 @@ main{
     padding: 5px;
     float: right;
     display: flex;
+    position: relative;
     width: 350px;
     height: 450px;
     padding: .5rem;  
     right: -645px;
     bottom: 230px;
-    position: relative;
 }
 
 .team {
@@ -359,4 +361,145 @@ button{
 
 button:hover{
     background-color: whitesmoke;
+}
+
+
+
+/*TRIPS*/
+
+.trips{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: .25fr .75fr;
+}
+
+.trips p{
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    width: 300px;
+    height: auto;
+    padding: .5rem;  
+}
+
+.trips img{
+    bottom: 220px;
+    display: flex;
+    position: static;
+    border: 4px dashed var(--accent2-color); 
+    border-radius: 20px;
+    padding: 5px;
+    margin: 20px;
+}
+
+/*TABLE*/
+
+.table{
+    top: 10px;
+    align-content: end;
+    width: 70%;
+    max-width: 50%;
+    max-height: fit-content;
+    height: 935px;
+    position: relative;
+    float: inline-end;
+    right: 50px;
+    margin: 0 auto;
+    border: 4px dashed var(--accent2-color); 
+    border-spacing: 5px;    
+    border-radius: 20px;
+
+}
+
+/*.table img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+}*/
+
+table {
+    top: -5px;
+    height: 870px;
+    position: relative;
+    font: 
+        15px "Open Sans",
+        Helvetica,
+        Arial,
+        sans-serif;
+}
+
+th,
+td {
+border: 1px solid rgb(160 160 160);
+padding: 5px 10px;
+text-align: center;
+color: white;
+}
+
+td{
+color: rgba(22, 17, 17, 0.76);
+text-shadow: 0px 1px 0px lightblue;
+}
+
+thead > tr {
+background-color: rgb(228 240 245);
+}
+
+thead > tr:nth-of-type(2) {
+border-bottom: 2px solid rgb(140 140 140);
+}
+
+tbody > tr > th:first-of-type {
+text-align: left;
+background-color: rgb(225 229 244);
+}
+
+tbody > tr:nth-of-type(even) {
+background-color: rgb(255, 255, 255);
+}
+
+tbody > tr:nth-of-type(odd) {
+    background-color: rgb(255, 255, 255);
+}
+
+tbody > tr > td:last-of-type {
+text-align: right;
+}
+
+tfoot > tr {
+border-top: 2px dashed rgb(140 140 140);
+background-color: rgb(228 240 245);
+}
+
+th{
+color: darkblue;
+text-shadow: 0px 1px 1px skyblue;
+vertical-align: center;
+}
+
+tfoot > tr > th{
+text-align: end;
+}
+
+caption{
+    caption-side: bottom;
+    padding: 8px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px skyblue;
+    font-style: italic;
+}
+
+table a{
+    color: darkblue;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: lightgray;
+    box-shadow: 1px 1px 2px skyblue;
+}
+
+table a:hover{
+    background-color: darkblue;
+    color: white;
 }
