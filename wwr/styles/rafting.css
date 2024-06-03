@@ -93,8 +93,18 @@ h3 {
 h4 {
     font-family: "Poetsen One", serif;
     font-weight: 300;
-    font-style: normal;
-    color: #ccd8f1;
+    font-size: 300%;
+    font-style: oblique;
+    color: white;
+    text-align: center;
+    display: inline;
+    top: 200px;
+    right: 2px;
+    position: absolute;
+    max-width: 400px;
+    padding: 50px;
+    margin: 10px;
+    border: 2px solid white;
 }
 
 h1, h2 {
@@ -193,6 +203,7 @@ footer p {
 .sociallinks a {
     text-decoration: none !important;
     float: right;
+    margin: 5px;
     border: 4px dashed var(--accent2-color); 
     border-radius: 20px;
     padding: 5px;
@@ -241,7 +252,6 @@ main{
     display: flex;
     width: 350px;
     height: 450px;
-    padding: .5rem;  
     left: 20px;
     bottom: 230px;
     position: relative;
@@ -256,7 +266,6 @@ main{
     position: relative;
     width: 350px;
     height: 450px;
-    padding: .5rem;  
     right: -645px;
     bottom: 230px;
 }
@@ -412,12 +421,6 @@ button:hover{
 
 }
 
-/*.table img{
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    width: 100%;
-}*/
-
 table {
     top: -5px;
     height: 870px;
@@ -502,4 +505,67 @@ table a{
 table a:hover{
     background-color: darkblue;
     color: white;
+}
+
+/*HOME*/
+.home{
+    margin: 0px;
+}
+
+.home img{
+    width: 100%;
+    height: 80%;
+    position: inherit;
+}
+
+.second{
+    grid-template-columns: .65fr 1fr 1fr .65fr;
+    display: grid;
+    border: 2px solid black;
+    margin: 0;
+
+}
+
+.second a{
+    color: darkblue;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: lightgray;
+    box-shadow: 1px 1px 2px skyblue;
+    font: 
+    18px "Open Sans",
+    Helvetica,
+    Arial,
+    sans-serif;
+    text-align: end;
+    float: inline-end;
+    margin: 5px;
+    border
+}
+
+.second a:hover{
+    background-color: darkblue;
+    color: white
+}
+
+.second h3{
+    font-size: 1.5em;
+    margin: 20px;   
+    text-shadow: 1px 1px 2px lightblue;
+    color: black;
+}
+
+.seconda {
+    border-right: 2px solid black;
+}
+
+.seconda img{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    border: 4px dashed var(--accent2-color); 
+    border-radius: 20px;
+    padding: 5px;
+    justify-content: center;
+    display: flex;
 }
