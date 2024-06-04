@@ -540,7 +540,6 @@ table a:hover{
     text-align: end;
     float: inline-end;
     margin: 5px;
-    border
 }
 
 .second a:hover{
@@ -568,4 +567,6 @@ table a:hover{
     padding: 5px;
     justify-content: center;
     display: flex;
+    margin: 0px;
 }
+
